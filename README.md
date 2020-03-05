@@ -22,6 +22,7 @@ These instructions will get you a copy of this project up and running on your lo
 ### Prerequisites
 
 - [Node.js](https://nodejs.org) - JavaScript run-time environment
+  - After installing it, use `npm i` in the project's root folder to install all dependencies
 
 #### Visual Studio Code Extensions
 
