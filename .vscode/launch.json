@@ -2,17 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "ts-node Inspector",
       "type": "node",
       "request": "launch",
-      "args": ["${workspaceRoot}/src/bin/bin.ts"],
+      "name": "Launch Program",
       "runtimeArgs": ["-r", "ts-node/register"],
-      "cwd": "${workspaceRoot}",
-      "protocol": "inspector",
-      "internalConsoleOptions": "openOnSessionStart",
-      "env": {
-        "TS_NODE_IGNORE": "false"
-      }
+      "args": ["${workspaceFolder}/src/bin/bin.ts"],
+      "env": { "TS_NODE_PROJECT": "tsconfig.json" },
+      "console": "integratedTerminal"
     }
   ]
 }
