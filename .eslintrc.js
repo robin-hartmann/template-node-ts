@@ -33,12 +33,9 @@ module.exports = {
     project: './tsconfig.json'
   },
   rules: {
-    '@typescript-eslint/no-floating-promises': 'error',
     // Too restrictive, writing ugly code to defend against a very unlikely scenario: https://eslint.org/docs/rules/no-prototype-builtins
     'no-prototype-builtins': 'off',
-    // https://github.com/basarat/typescript-book/blob/master/docs/tips/defaultIsBad.md
-    'import/prefer-default-export': 'off',
-    'import/no-default-export': 'error',
+    '@typescript-eslint/no-floating-promises': 'error',
     // Makes no sense to allow type inferrence for expression parameters, but require typing the response
     '@typescript-eslint/explicit-function-return-type': [
       'error',
@@ -48,6 +45,9 @@ module.exports = {
       'error',
       { functions: false, classes: true, variables: true, typedefs: true }
     ],
+    // https://github.com/basarat/typescript-book/blob/master/docs/tips/defaultIsBad.md
+    'import/prefer-default-export': 'off',
+    'import/no-default-export': 'error',
     // Common abbreviations are known and readable
     'unicorn/prevent-abbreviations': 'off',
     'no-console': 'off'
