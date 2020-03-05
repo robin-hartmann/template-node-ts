@@ -49,7 +49,6 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'import/no-default-export': 'error',
     // Common abbreviations are known and readable
-    'unicorn/prevent-abbreviations': 'off',
-    'no-console': 'off'
+    'unicorn/prevent-abbreviations': 'off'
   }
 }
