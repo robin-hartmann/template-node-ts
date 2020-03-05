@@ -41,7 +41,10 @@
       "label": "Run TypeScript code using ts-node",
       "type": "shell",
       "command": "npm run start:ts --silent",
-      "group": "none",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
       "presentation": {
         "panel": "dedicated",
         "reveal": "always"
