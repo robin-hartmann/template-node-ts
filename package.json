@@ -37,7 +37,7 @@
     "prebuild": "npm run lint",
     "build": "npm run build-only",
     "prebuild-only": "npm run clean",
-    "build-only": "tsc",
+    "build-only": "tsc -p tsconfig.json",
     "clean": "shx rm -rf dist/",
     "lint": "eslint . --ext .ts",
     "start": "npm run start:ts",
