@@ -18,6 +18,7 @@ module.exports = {
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:import/typescript',
+    'plugin:node/recommended',
     'plugin:promise/recommended',
     'plugin:unicorn/recommended',
     'prettier',
@@ -48,6 +49,18 @@ module.exports = {
     // https://github.com/basarat/typescript-book/blob/master/docs/tips/defaultIsBad.md
     'import/prefer-default-export': 'off',
     'import/no-default-export': 'error',
+    'node/no-missing-import': [
+      'error',
+      {
+        tryExtensions: ['.ts']
+      }
+    ],
+    'node/no-unsupported-features/es-syntax': [
+      'error',
+      {
+        ignores: ['modules']
+      }
+    ],
     // Common abbreviations are known and readable
     'unicorn/prevent-abbreviations': 'off'
   }
