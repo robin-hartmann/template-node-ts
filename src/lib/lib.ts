@@ -1,6 +1,11 @@
 import figlet from 'figlet'
 
-export const promisedFiglet = (txt: string): Promise<string> =>
-  new Promise((resolve, reject) =>
+function promisedFiglet(txt: string): Promise<string> {
+  return new Promise((resolve, reject) =>
     figlet(txt, (error, result) => (error ? reject(error) : resolve(result)))
   )
+}
+
+export function getAsciiArtHelloWorld(): Promise<string> {
+  return promisedFiglet('Hello World!')
+}
