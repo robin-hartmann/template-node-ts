@@ -5,14 +5,15 @@ Project Template for creating Node.js apps with TypeScript
 ## ⭐ Features
 
 - Code in TypeScript
-- Automatic code checking with ESLint
-- Automatic code formatting and fixing with Prettier
 - Run TypeScript code using `ts-node`
+- Built-in tasks using npm scripts
 - Integration with Visual Studio Code
   - Settings
   - Tasks
   - Debuging
   - Extensions
+    - Automatic code checking with ESLint
+    - Automatic code formatting and fixing with Prettier
 
 ## 🛠️ Development
 
