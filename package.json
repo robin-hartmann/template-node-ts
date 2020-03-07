@@ -1,7 +1,7 @@
 {
   "name": "template-node-ts",
   "version": "0.1.0",
-  "description": "Template for creating Node.js apps with TypeScript - transpiled to JavaScript",
+  "description": "Project Template for creating Node.js apps with TypeScript - transpiled to JavaScript",
   "author": "contact.robin.hartmann@gmail.com",
   "license": "MIT",
   "main": "dist/lib/lib.js",
