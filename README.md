@@ -64,7 +64,7 @@ npm run start:js
 npm publish
 ```
 
-VS Code tasks for `lint`, `build`, `build-only`, `start:ts` and `start:js` are also included.
+VS Code tasks are also included for `lint`, `build`, `build-only`, `start:ts` and `start:js`.
 
 ## 🔧 Built With
 
