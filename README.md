@@ -1,8 +1,8 @@
-# template-ts-node
+# 📄 template-ts-node
 
 Template for creating Node.js apps with TypeScript - transpiled to JavaScript
 
-## Features
+## ⭐ Features
 
 - Code in TypeScript
 - Automatic code checking with ESLint
@@ -15,7 +15,7 @@ Template for creating Node.js apps with TypeScript - transpiled to JavaScript
   - Task definitions
   - Extension recommendations
 
-## Development
+## 🛠️ Development
 
 These instructions will get you a copy of this project up and running on your local machine for development and testing purposes.
 
