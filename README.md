@@ -1,6 +1,6 @@
 # 📄 template-node-ts
 
-Project Template for creating Node.js apps with TypeScript - transpiled to JavaScript
+Project Template for creating Node.js apps with TypeScript
 
 ## ⭐ Features
 
