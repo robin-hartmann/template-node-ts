@@ -1,4 +1,4 @@
-# 📄 template-ts-node
+# 📄 template-node-ts
 
 Template for creating Node.js apps with TypeScript - transpiled to JavaScript
 
