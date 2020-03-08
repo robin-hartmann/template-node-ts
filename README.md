@@ -78,4 +78,4 @@ VS Code tasks are also included for `lint`, `build`, `build-only`, `start:ts` an
 
 ## 📃 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
