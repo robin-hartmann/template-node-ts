@@ -29,6 +29,7 @@ These instructions will get you a copy of this project up and running on your lo
 This project is intended to be used with Visual Studio Code and the following extensions are recommended:
 
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Integrates ESLint JavaScript into VS Code
+- [JavaScript Debugger (Nightly)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-debug-nightly) - An extension for debugging Node.js programs and Chrome
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Code formatter using prettier
 
 ### 🚀 Built-in Tasks
@@ -67,6 +68,12 @@ npm publish
 VS Code tasks are also included for `lint`, `build`, `build-only`, `start:ts` and `start:js`.
 
 ## 🧰 Built With
+
+### 📚 Resources
+
+- [`.eslintrc.js` from `create-exposed-app`](https://github.com/iamturns/create-exposed-app/blob/master/.eslintrc.js)
+
+### 🏛️ Libraries
 
 - [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript that compiles to plain JavaScript
 - [ESLint](https://eslint.org/) - Find and fix problems in your JavaScript code
