@@ -32,7 +32,7 @@ This project is intended to be used with Visual Studio Code and the following ex
 - [JavaScript Debugger (Nightly)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-debug-nightly) - An extension for debugging Node.js programs and Chrome
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Code formatter using prettier
 
-### 🚀 Built-in Tasks
+### 🚀 Getting Started
 
 This project uses npm scripts for running tasks:
 
