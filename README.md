@@ -29,7 +29,6 @@ These instructions will get you a copy of this project up and running on your lo
 This project is intended to be used with Visual Studio Code and the following extensions are recommended:
 
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Integrates ESLint JavaScript into VS Code
-- [JavaScript Debugger (Nightly)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-debug-nightly) - An extension for debugging Node.js programs and Chrome
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Code formatter using prettier
 
 ### 🚀 Getting Started
