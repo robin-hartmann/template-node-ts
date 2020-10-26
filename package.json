@@ -1,6 +1,6 @@
 {
   "name": "template-node-ts",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Project Template for creating Node.js apps with TypeScript",
   "author": "contact.robin.hartmann@gmail.com",
   "license": "MIT",
